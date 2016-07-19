@@ -3,3 +3,166 @@
 <!--html file for mancala game.-->
 
 
+<!--Term: summer 2106-->
+<!--HTML code for mancala game-->
+
+<!DOCTYPE html>
+ <html>
+  <head>
+  	<div id="header">
+  		<h1> MANCALA GAME </h1>
+    </div>
+
+	<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+	<script src="mancalaPVP.js"></script>
+		
+ 	<style>
+ 
+ 		#header {
+    		color: purple;
+    		font-size: 170%;
+    		text-align: center;
+    		font-weight: bold;
+		}
+		#link {
+			font-size: 135%;
+			text-align: center;
+		}
+		#p {
+			font-size: 150%;
+			text-align: center;
+			color: black;
+		}
+		#pvp {
+			background-color: #4CAF50; /* Green */
+    		border-radius: 50%;
+    		font-size: 20px;
+    		color: black;
+    		padding: 15px 25px;
+    		text-align: center;
+    		text-decoration: none;
+    		width: 80%;
+		}
+		#pvc{
+			background-color: #4CAF50; /* Green */
+    		border-radius: 50%;
+    		font-size: 20px;
+    		color: black;
+    		padding: 15px 25px;
+    		text-align: center;
+    		text-decoration: none;
+    		width: 80%;
+		} 
+		#modeOption {
+			margin-left: 40%;
+			margin-right: 40%;
+			left: 100px;
+			right: 100px;	
+			text-align: center;
+		}
+		
+		#nav {
+    		line-height:30px;
+   			background-color: black;
+   			height:300px;
+    		width:120px;
+    		float:left;
+    		padding:5px;	      
+		}
+		#section2 {
+    		
+    		float:left;
+    		padding:20px;
+    			 	 
+		}
+		#showRight {
+			margin-left: 4cm;
+			margin-right: 4cm;
+			text-align: center;
+			font-size:35px;
+			color:white;
+			background-color: red;
+			font-weight: bold;
+		}
+		#boardTable {
+			text-align: center;
+			height: 200px;
+			width: 100%;
+    		border: 5px solid black;
+    		background-color: yellow;
+    		margin-left: 15%;
+    		margin-right: 15%;
+    	
+    		//border-collapse: collapse;
+		}
+		td, th {
+			margin-left: 15%;
+			margin-right: 15%;
+    		padding: 30px;
+    		text-align: center; 
+    		font-size:25px;
+    		color: black;
+    		font-weight: bold;	   
+		}
+	
+		body {
+    		background-color: lightblue;
+		}
+
+ 	</style>
+ 	
+ </head>
+ 
+ <body>
+	
+  <div id="section1">
+    <p id="link">What is the game rule?
+    	<a href ="http://www.instructables.com/id/How-to-play-MANCALA/"> Click here.</a> </p>
+  	<p id="p"><b>Want to play? Choose a mode to start.</b></p>
+  </div>
+  
+  <div id="modeOption">
+  	
+    <button id="pvp">2 Players</button>
+  	
+  </div>
+  
+  
+  <div>
+  	<p id="showRight">Red side has the right!</p>
+  </div>
+    
+  <div id="section2" >
+   <table class=gameTable id="boardTable" border = 5>
+     <tbody>
+    	<tr>
+      		<td id = "A0"></td>
+      		<td id = "A1"></td>
+      		<td id = "A2"></td>
+      		<td id = "A3"></td>
+      		<td id = "A4"></td>
+      		<td id = "A5"></td>
+      		<td id = "A6"></td>
+      		<td id = "A7"></td>  
+    	</tr>
+    	<tr>
+      		<td id = "B0"></td>
+      		<td id = "B1"></td>
+      		<td id = "B2"></td>
+      		<td id = "B3"></td>
+      		<td id = "B4"></td>
+      		<td id = "B5"></td>
+      		<td id = "B6"></td>
+      		<td id = "B7"></td>
+      		<td id = "B8"></td>
+      
+    	</tr>
+     </tbody>
+    </table>
+   
+   </div>
+   	   
+ </body>
+ 
+</html>
+
