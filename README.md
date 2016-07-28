@@ -15,4 +15,3 @@ On a player's turn, he or she chooses one of the pits on his or her side of the 
 Build information
 
 
-Project roadmap
