@@ -1,3 +1,6 @@
+
+/// This project is a personal project completed by Qian Song, the two commiters are the same person with two accounts.
+
 #Copyright (c) 2016 Qian Song
 
 This program is available under MIT licence, please see COPYING.
