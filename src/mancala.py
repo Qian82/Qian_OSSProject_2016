@@ -3,7 +3,6 @@
 # Mancala Game for OSS summer project
 
 
-__author__ = 'Qian Song'
 
 import sys
 import copy
