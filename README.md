@@ -19,7 +19,7 @@ In this project, the major task is to write a program to determine the next move
 Build and run instruction:
 
 1  Python code:
-Python 2.7 interpreter is needed to run the code. Create a folder and put the source code(mancala.py) in it. Start, go into the working directory, run the code by typing python mancala.py or ./mancala.py. Then you will see the guide menu to choose a mode to play or to quit. (pyCharm is an IDE for python, you can also run it on pyCharm).
+Python 2.7 interpreter is needed to run the code. Create a folder and put the source code(mancala.py) in it. Start, go into the working directory, run the code by typing python mancala.py. Then you will see the guide menu to choose a mode to play or to quit. (pyCharm is an IDE for python, you can also run it on pyCharm).
 
 Choose  1 to play with another player, 2 to play with computer, 3 quit game. The plate (two arrays) will show in current state. Type the number of pit which you choose to move the stones(number of stones are shown by array elements) and the updated plate state will show on terminal, and the program will also prompt whose turn it is. 
 
