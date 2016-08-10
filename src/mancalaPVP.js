@@ -7,6 +7,8 @@
 //Term: summer 2016
 
 
+
+
 $(document).ready(function() { 
 	newGame();
 	
