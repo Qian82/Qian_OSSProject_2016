@@ -18,7 +18,9 @@ On a player's turn, he or she chooses one of the pits on his or her side of the 
 #Languages
 
 Python
+
 html
+
 javascript
 
 
@@ -36,9 +38,13 @@ Then you will see the guide menu to choose a mode to play or to quit.
 
 Welcome to mancala!
 Please choose:
+
 1. Play with Player.
+
 2. Play with Computer
+
 3. Quit Game!
+
 
 Choose  1 to play with another player, 2 to play with computer, 3 quit game. The plate (two arrays) will show in current state. Type the number of pit which you choose to move the stones(number of stones are shown by array elements) and the updated plate state will show on terminal, and the program will also prompt whose turn it is. 
 
